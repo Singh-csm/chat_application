@@ -1,0 +1,24 @@
+{
+  "name": "chat_application",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Singh-csm/chat_application.git"
+  },
+  "keywords": [],
+  "author": "Chandrashekhar Singh Mourya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Singh-csm/chat_application/issues"
+  },
+  "homepage": "https://github.com/Singh-csm/chat_application#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.5.4"
+  }
+}

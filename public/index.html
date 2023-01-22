@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title img="applogo.jpg">Chat App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="chat_section">
+        <div class="brand">
+            <h1>whatsapp</h1>
+            <img class="logo" src="./applogo.jpg" alt="whatsapp" >
+        </div>
+
+        <div class="message_area"></div>
+
+        <div><textarea id="textarea" cols="30" rows="1" placeholder="write your message..."></textarea>
+        </div>
+    </section>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="client.js"></script>
+    
+</body>
+</html>
